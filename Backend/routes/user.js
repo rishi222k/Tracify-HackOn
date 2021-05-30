@@ -12,16 +12,16 @@ router.post("/login" ,  async(req,res) =>{
     console.log(req.body.password);
     if(user==null)
     {
-      res.send("cannot find user");
+      res.json(user);
     }
     try{
         if(await bycrypt.compare(req.body.password,user[0].password))
         {
-          res.send("correct password");
+          res.json(user);
         }
         else
         {
-          res.send("password incorrect");
+          res.json(user);
         }
     }
     catch(err)

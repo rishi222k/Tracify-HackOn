@@ -32,9 +32,7 @@ router.get("/data", async(req,res) => {
 
 router.get("/detail/:id", async(req,res) => {
     const { id } = req.params;
-    console.log("$2b$10$SdY4AV9TteF7Nin8A6NJxeQfd1koQ0LarX/GDVYzlQuPJsIJl7toG");
-    console.log(id);
-    const data = await Travel.find({p_hash:'$2b$10$SdY4AV9TteF7Nin8A6NJxeQfd1koQ0LarX/GDVYzlQuPJsIJl7toG'});
+    const data = await Travel.find({p_hash:id});
     console.log(data);
     res.json(data);
 });
