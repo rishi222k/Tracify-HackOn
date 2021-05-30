@@ -1,0 +1,118 @@
+.Signuppage  
+{  
+    margin: 0;  
+    padding: 0; 
+    //background-image: url(../Images/Background.png);  
+    
+    font-family: 'Raleway';  
+  
+.login{  
+        width: 695px;    
+        margin: auto;  
+        padding: 10px;  
+        background: #272727;  
+        border-radius: 10px ;  
+        border: 3px solid #66665f; 
+}  
+h2{  
+    text-align: center;  
+    color: #00FFCB;  
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: SFNS;
+    font-size: 25px;
+    
+}  
+.form{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  }
+
+label{  
+    color: wheat;  
+    font-size: 18px;  
+    font-family: Raleway;
+    
+}  
+#Uname{  
+    width: 350px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+    
+}  
+#Pass{  
+    width: 350px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+      
+}  
+
+a{
+  color:white;
+  text-decoration: none;
+ 
+}
+p{
+  color: #ffffff;
+  font-size: 12px;
+}
+#submit{
+  border: #00FFCB 2.5px solid;
+        border-radius: 6px;
+        padding: 0.7em 1.6em;
+        color:#00FFCB;
+        text-decoration: none;
+        font-weight: 550;
+        font-size: 1.1em;
+        background-color: #272727;
+        cursor: pointer;
+}
+}
+
+@media only screen and (max-width: 600px){
+  .Signuppage{
+      .login{
+          width: 350px; 
+          padding:10px;      
+      }
+      .form{
+        width: 100%;
+      }
+      #Uname{
+        width: 300px;
+      }
+      #Pass{  
+        width: 300px;
+      }
+  }
+}
+// @media only screen 
+// and (max-width: 370px){
+//   .Signuppage{
+//       .login{
+//           width: 320px;  
+             
+//       }
+//   }
+// }
+@media only screen and (max-width: 350px){
+  .Signuppage{
+      .login{
+          width: 320px;   
+             
+      }
+      #Uname{
+        width: 280px;
+      }
+      #Pass{  
+        width: 280px;
+      }
+      
+  }
+}

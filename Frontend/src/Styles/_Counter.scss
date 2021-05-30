@@ -1,0 +1,53 @@
+.Counter{
+    img{
+        width: 4em; 
+        margin-left: 1em;
+    }
+    .card{
+        padding-left: 1.5em;
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 1.4em;
+            font-family: proxima nova;
+            margin-bottom: 0.5em;
+        }
+        .content{
+            margin-left: 3em;
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1024px){
+    .Counter{
+        img{
+            width: 3em;
+        }
+        .card{
+            padding-left: 0.2em;
+            justify-content: center;
+            margin-bottom: 2em;
+            .content{
+                font-size: 1em;
+            }
+            span{
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 767px){
+    .Counter{
+        .card{
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 4em;
+        }
+    }
+
+}

@@ -1,0 +1,99 @@
+.loginpage{ 
+
+    margin: 0;  
+    padding: 0;  
+
+    
+    .login{  
+
+        width: 395px;    
+        margin: auto;  
+        padding: 50px;  
+        background: #272727;  
+        border-radius: 10px ;  
+        border: 3px solid #66665f; 
+h2{  
+    text-align: center;  
+    color: #00FFCB;  
+    padding: 20px;
+    margin-top: 20px;
+    font-family: SFNS;
+    font-size: 25px;
+    
+}  
+.form{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    }
+  
+label{  
+    color: wheat;  
+    font-size: 20px;  
+    
+}  
+#Uname{  
+    width: 280px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+    
+}  
+#Pass{  
+    width: 280px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+      
+}  
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+  #submit{
+          border: #00FFCB 2.5px solid;
+          border-radius: 6px;
+          padding: 0.7em 1.6em;
+          color:#00FFCB;
+          text-decoration: none;
+          font-weight: 550;
+          font-size: 1.1em;
+          background-color: #272727;
+          cursor: pointer;
+  }
+
+
+}
+
+}
+
+@media only screen and (max-width: 600px){
+    .loginpage{
+        .login{
+            width: 350px; 
+            padding:20px;      
+        }
+
+    }
+}
+@media only screen 
+and (max-width: 370px){
+    .loginpage{
+        .login{
+            width: 290px;  
+            padding: 20px;      
+        }
+    }
+}
+@media only screen and (max-width: 310px){
+    .loginpage{
+        .login{
+            width: 300px;   
+               
+        }
+    }
+}

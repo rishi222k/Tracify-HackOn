@@ -1,0 +1,62 @@
+.Charts{
+    h1{
+        margin: 4.5em;
+        margin-bottom: 1.5em;
+        font-size: 3em;
+        text-align: center;
+    }
+    .Apexcharts{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        tspan{
+            fill: white;
+        }
+        .apexcharts-grid{
+            line{
+                stroke: rgb(77, 77, 77);
+            }   
+        }
+        .apexcharts-legend{
+            width: 50%;
+            justify-content: space-around !important;
+            margin-left: auto;
+            margin-right: auto;
+            display: none;
+        }
+        .apexcharts-legend-text{
+            color: white !important;
+            font-size: 1em !important;
+        }
+        .apexcharts-tooltip{
+            color: black;
+        }
+
+        
+    }
+}
+
+@media only screen 
+and (min-width: 1450px){
+    .Charts{
+        h1{
+            margin-top: 5em;
+            font-size: 4em; 
+        }
+    }
+}
+
+@media only screen  
+and (max-width: 768px){
+    .Charts{
+        h1{
+            
+            margin: 2em;
+            margin-top: 3em;
+        }
+        .Apexcharts{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.Transit{
+    .india img{
+        float: right ;
+        width: 28em;
+        margin-left: 1em;
+    }
+    .desc{
+        margin: 5em;
+        padding-top: 10rem;
+        
+        h1{ 
+        color: white;
+        font-size: 3em;
+        text-align: left;
+        
+    }
+    p{
+        width: 40%;
+        font-size: 1.2em;
+        line-height: 1.6;
+        font-weight: 500;
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
+    
+    a{
+        border: #00FFCB 2px solid;
+        border-radius: 6px;
+        padding: 0.7em 1.6em;
+        color: #00FFCB;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1em;
+       
+    }
+}
+}
+
+@media only screen 
+and (min-width: 1450px){
+    .Transit{
+        .india img{
+            width: 34em;
+        }
+        .desc{
+            h1{
+                font-size: 4em;
+            }
+            p{
+                font-size: 1.3em;
+                line-height: 1.7;
+            }
+            a{
+                font-size: 1.3em;
+            }
+        }
+    }
+}
+
+@media only screen 
+and (min-width:768px)
+and (max-width: 1024px){
+    .Transit{   
+        .desc{
+            padding-top: 0%;
+            p{
+                width: 90%;
+            }
+        }
+        .india img{
+            display: none;
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 767px){
+    .Transit{   
+        .desc{
+            margin: 2.5em;
+            padding-top: 0%;
+            p{
+                width: 100%;
+                font-size: 1.1em;
+            }
+        }
+        .india img{
+            display: none;
+        }
+    }
+}

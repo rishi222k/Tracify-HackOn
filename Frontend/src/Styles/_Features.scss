@@ -1,0 +1,104 @@
+.Features{
+    margin-bottom: 12em;
+    h1{
+        margin: 2.5em;
+        margin-bottom: 1.5em;
+        font-size: 3em;
+        text-align: center;
+    }
+    .cards{
+          width :90%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      
+      .card {
+        padding: 2.5em;
+        text-align: left;
+        background-color: #272727;
+        border-radius: 8px;
+        width: 21rem;
+        transition: all ease 0.4s;
+        margin-left: auto;
+        margin-right: auto;
+        h2{
+            font-family: SFNS;
+            font-size: 1.7em;
+        }
+        img{
+            width: 5em;
+            margin-bottom: 1.5em;
+        }
+        p{
+            width: 95%;
+            line-height: 1.5;
+            margin-top: 1em;
+        }
+
+      }
+      .card:hover{
+          transform: scale(1.07);
+      }
+}
+
+@media only screen 
+and (min-width: 1450px){
+    .Features{
+        h1{
+            font-size: 4em;
+        }
+        .card{
+            width: 25em;
+            h2{
+                font-size: 1.9em;
+            }
+            p{
+                font-size: 1.3em;
+            }
+        }
+    }
+}
+
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1024px){
+    .Features{
+        .cards{
+            width: 100%;
+        }
+        .card{
+            width: 35em;
+            margin-bottom: 2em;
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 767px){
+    .Features{
+        margin-bottom: 5em;
+        h1{
+            margin: 1.5em;
+        }
+        .cards{
+            width: 100%;
+        }
+        .card{
+            width: 20em;
+            margin-bottom: 2em;
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 365px){
+    .Features{
+        h1{
+            margin: 1.2em;
+        }
+        .card{
+            width: 18em;
+            margin-bottom: 2em;
+        }
+    }
+}

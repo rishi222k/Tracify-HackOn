@@ -1,0 +1,21 @@
+.Footer{
+    text-align: center;
+    
+    .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: SFNS;
+    margin-bottom: 2em;
+        img{
+            width: 3em;
+            margin-right: 1em;
+        }
+    }
+    p{
+        font-size: 0.9em;
+        font-weight: 100;
+        color: rgb(238, 238, 238);
+        margin-bottom: 1em;
+    }
+}

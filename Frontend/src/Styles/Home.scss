@@ -1,0 +1,71 @@
+@font-face {
+    font-family: SFNS;
+    src: url(../Fonts/FontsFree-Net-System-San-Francisco-Display-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../Fonts/ProximaNova/Proxima-Nova-Thin.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../Fonts/ProximaNova/Proxima-Nova-Regular.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../Fonts/ProximaNova/Proxima-Nova-Extrabold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../Fonts/ProximaNova/Proxima-Nova-Bold.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import "./Nav";
+@import "./Charts";
+@import "./Counter";
+@import "./Crypto";
+@import "./Features";
+@import "./Footer";
+@import "./Main";
+@import "./Transit";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    background-color: #0A0A0A;
+    color: white;
+    font-family: raleway;
+    font-weight: 400;
+}
+
+h1{
+    font-family: SFNS;
+}
+
+

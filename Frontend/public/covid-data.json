@@ -1,0 +1,189 @@
+[
+    {
+      "id": 1622319983803,
+      "State": "Delhi",
+      "iso": "DL",
+      "lat":28.7041,
+      "long": 77.1025,
+      "cases": 7462,
+      "partiallyvaccinated": 120402,   
+      "fullyvaccinated": 70402, 
+      "passengertravel": 124000
+    },
+    {
+        "id": 9922346483803,
+        "State": "Maharashtra",
+        "iso": "MH",
+        "lat":19.7515,
+        "long": 75.7139,
+        "cases": 12462,
+        "partiallyvaccinated": 90602,   
+        "fullyvaccinated": 20202, 
+        "passengertravel": 110000
+    },
+    {
+        "id": 2228419983803,
+        "State": "Tamil Nadu",
+        "iso": "TN",    
+        "lat":11.1271,
+        "long": 78.6569,
+        "cases": 8995,
+        "partiallyvaccinated": 100882,   
+        "fullyvaccinated": 40402, 
+        "passengertravel": 70000
+    },
+    {
+        "id": 1622049983203,
+        "State": "Bihar",
+        "iso": "BR",
+        "lat":25.0961,
+        "long": 85.3131,
+        "cases": 3461,
+        "partiallyvaccinated": 50301,   
+        "fullyvaccinated": 10402, 
+        "passengertravel": 20000
+    },
+    {
+        "id": 1212313423803,
+        "State": "Madhya Pradesh",
+        "iso": "MP",
+        "lat":22.9734,
+        "long": 78.6569,
+        "cases": 1572,
+        "partiallyvaccinated": 60499,   
+        "fullyvaccinated": 10222, 
+        "passengertravel": 30000
+    },
+    {
+        "id": 2228419983804,
+        "State": "Rajasthan",
+        "iso": "RJ",
+        "lat":27.391277    ,
+        "long": 73.432617,
+        "cases": 18955,
+        "partiallyvaccinated": 380882,
+        "fullyvaccinated": 200402, 
+        "passengertravel": 14000
+    },
+    {
+        "id": 2228419983805,
+        "State": "Sikkim",
+        "iso": "SK",
+        "lat":27.5330,
+        "long": 88.5122,
+        "cases": 8995,
+        "partiallyvaccinated": 10882,
+        "fullyvaccinated": 41462, 
+        "passengertravel": 30000
+    },
+    {
+        "id": 2228419983806,
+        "State": "Tripura",
+        "iso": "TR",
+        "lat":23.9408,
+        "long": 91.9882,
+        "cases": 10995,
+        "partiallyvaccinated": 10882,
+        "fullyvaccinated": 4042, 
+        "passengertravel": 9000
+    },
+    {
+        "id": 2228419983807,
+        "State": "Uttar Pradesh",
+        "iso": "UP",
+        "lat":28.207609    ,
+        "long": 79.826660,
+        "cases": 32995,
+        "partiallyvaccinated": 150882,
+        "fullyvaccinated": 704202, 
+        "passengertravel": 9000
+    },
+    {
+        "id": 2228419983808,
+        "State": "Uttarakhand",
+        "iso": "UK",
+        "lat":30.0668,
+        "long": 79.0193,
+        "cases": 8995,
+        "partiallyvaccinated": 10882,
+        "fullyvaccinated": 40402, 
+        "passengertravel": 20700
+    },
+    {
+        "id": 22284199838010,
+        "State": "West Bengal",
+        "iso": "WB",
+        "lat":22.978624,
+        "long":    87.747803,
+        "cases": 2995,
+        "partiallyvaccinated": 240882,
+        "fullyvaccinated": 10402, 
+        "passengertravel": 4000
+    },
+    {
+        "id": 2228419983804,
+        "State": "Andhra Pradesh",
+        "iso": "AP",
+        "lat":15.9129,
+        "long": 79.7400,
+        "cases": 18955,
+        "partiallyvaccinated": 380882,
+        "fullyvaccinated": 200402, 
+        "passengertravel": 14000
+    },
+    {
+        "id": 2228419983805,
+        "State": "Arunachal Pradesh",
+        "iso": "AR",
+        "lat":28.2180,
+        "long": 94.7278,
+        "cases": 8995,
+        "partiallyvaccinated": 10882,
+        "fullyvaccinated": 41462, 
+        "passengertravel": 30000
+    },  
+    {
+        "id": 2228419983806,
+        "State": "Assam",
+        "iso": "AS",
+        "lat":26.244156,
+        "long": 92.537842,
+        "cases": 10995,
+        "partiallyvaccinated": 10882,
+        "fullyvaccinated": 4042, 
+        "passengertravel": 9000
+    },
+    {
+        "id": 2228419983807,
+        "State": "Chhattisgarh",
+        "iso": "CG",
+        "lat":21.295132    ,
+        "long": 81.828232,
+        "cases": 32995,
+        "partiallyvaccinated": 150882,
+        "fullyvaccinated": 704202, 
+        "passengertravel": 9000
+    },
+    {
+        "id": 2228419983808,
+        "State": "Goa",
+        "iso": "GA",
+        "lat":15.2993,
+        "long": 74.1240,
+        "cases": 8995,
+        "partiallyvaccinated": 10882,
+        "fullyvaccinated": 40402, 
+        "passengertravel": 20700
+    },
+    {
+        "id": 22284199838010,
+        "State": "Telangana",
+        "iso": "TS",
+        "lat":18.1124,
+        "long": 79.0193,
+        "cases": 2995,
+        "partiallyvaccinated": 240882,
+        "fullyvaccinated": 10402, 
+        "passengertravel": 4000
+    }
+]
