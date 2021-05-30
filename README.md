@@ -1,4 +1,4 @@
-# Tracify-Full 
+# Tracify-Web-App
 
 Link: https://tracify-covid.vercel.app/
 
