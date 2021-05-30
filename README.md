@@ -2,7 +2,7 @@
 
 Link: https://tracify-covid.vercel.app/
 
-##A Blockchain Based Trusted Tracking system and Immunity Certificate Platform Accompanied with a Deflationary crypto token with built-in tokenomics ($VAX)
+## A Blockchain Based Trusted Tracking system and Immunity Certificate Platform Accompanied with a Deflationary crypto token with built-in tokenomics ($VAX)
 
 ### The problem it solves:
 
@@ -15,7 +15,7 @@ Contact tracing helps avoid the spread of a virus through pro-actively identifyi
 
  There is no denying that blockchain technology is here to stay. We are firm believers that blockchain will disrupt not just the financial sector but all industries of the world, healthcare included. So when our team sat down to brainstorm ideas about how we can leverage blockchain for our project, it occurred to us – why not try to use this wonderful piece of tech to make something which will help with arguably one of the worst pandemics (not only by number of people affected but also economically) to ever plague humankind? That is how we came up with the idea for our project.
 
-##Technologies - 
+## Technologies - 
 
-###Web – MERN stack, cloudinary, JWT authentication
-###Blockchain – OpenZeppelin, brownie, Metamask wallet, IPFS, Pinata, OpenSea, ERC721 standard, Chainlink oracle
+### Web – MERN stack, cloudinary, JWT authentication
+### Blockchain – OpenZeppelin, brownie, Metamask wallet, IPFS, Pinata, OpenSea, ERC721 standard, Chainlink oracle
